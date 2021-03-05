@@ -3,92 +3,205 @@ import random
 
 
 class Restaurant:
+    initial_bill = 0
 
     def __init__(self, hotel_name):
         self.hotel_name = hotel_name
         self.order = {}
 
-    # taking the orders of veg section
+    # taking the orders of veg section and serving them
     def drinks(self, user_drink, size, customer_name):
-        if user_drink in Drinks and size == 2 or 1:
+        if user_drink in Drinks.keys() and size == 2 or 1:
             self.order.update({user_drink: size})
             print(f"{size}:{user_drink} served to {customer_name}")
+
+            print("Anything, else sir?\n if yes or no")
+            user_extra = str(input())
+            hotel_customer.initial_bill += Drinks[user_drink] * size
+            with open("invoice.txt", "a+") as f:
+                string = str(" ")
+                string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
+                string += str("\t\n") + str(f"Drinks ordered : - {user_drink} * {size} = {Drinks[user_drink]}/drink.")
+                string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
+                string += str("\n") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                f.write(string)
+
+            if user_extra == "yes" or user_extra == "y":
+                main()
+            elif user_extra != "no" or user_extra == "n":
+                print("All your orders are served , please enjoy the moment.")
+                print("Please collect your invoice sir.")
+                display_invoice()
+
         else:
             print(f"Sorry, but '{user_drink}' is not available for drinks.")
 
     def breakfast(self, user_breakfast, size, customer_name):
-        if user_breakfast in breakfast and size == 2 or 1:
+        if user_breakfast in breakfast.keys() and size == 2 or 1:
             self.order.update({user_breakfast: size})
             print(f"{size}:{user_breakfast} served to {customer_name}")
+            print("Anything, else sir?\n if yes or no")
+            user_extra = str(input())
+            hotel_customer.initial_bill += breakfast[user_breakfast] * size
+            with open("invoice.txt", "a+") as f:
+                string = str(" ")
+                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
+                string += str("\t\n") + str(
+                    f"Drinks ordered : - {user_breakfast} * {size} = {breakfast[user_breakfast]}/dish.")
+                string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
+                string += str("\n") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                f.write(string)
+            if user_extra == "yes" or user_extra == "y":
+                main()
+            elif user_extra != "no" or user_extra == "n":
+                print("All your orders are served , please enjoy the moment.")
+                print("Please collect your invoice sir.")
+                display_invoice()
         else:
             print(f"Sorry, but '{user_breakfast}' is not available for breakfast.")
 
     def veg_food(self, user_veg, size, customer_name):
-        if user_veg in veg_food and size == 2 or 1:
+        if user_veg in veg_food.keys() and size == 2 or 1:
             self.order.update({user_veg: size})
             print(f"{size}:{user_veg} served to {customer_name}")
+            print("Anything, else sir?\n if yes or no")
+            user_extra = str(input())
+            hotel_customer.initial_bill += veg_food[user_veg] * size
+            with open("invoice.txt", "a+") as f:
+                string = str(" ")
+                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
+                string += str("\t\n") + str(f"Drinks ordered : - {user_veg} * {size} = {veg_food[user_veg]}/dish.")
+                string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
+                string += str("\n") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                f.write(string)
+            if user_extra == "yes" or user_extra == "y":
+                main()
+            elif user_extra != "no" or user_extra == "n":
+                print("All your orders are served , please enjoy the moment.")
+                print("Please collect your invoice sir.")
+                display_invoice()
         else:
             print(f"Sorry, but '{user_veg}' is not available at the veg card.")
 
-    # taking the orders of non-veg section
+    # taking the orders of non-veg section and serving them
     def non_veg_food(self, user_non_veg, size, customer_name):
-        if user_non_veg in non_veg_food and size == 2 or 1:
+        if user_non_veg in non_veg_dishes.keys() and size == 2 or 1:
             self.order.update({user_non_veg: size})
             print(f"{size}:{user_non_veg} served to {customer_name}")
+            print("Anything, else sir?\n if yes or no")
+            user_extra = str(input())
+            hotel_customer.initial_bill += non_veg_dishes[user_non_veg] * size
+            with open("invoice.txt", "a+") as f:
+                string = str(" ")
+                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
+                string += str("\t\n") + str(
+                    f"Drinks ordered : - {user_non_veg} * {size} = {non_veg_dishes[user_non_veg]}/dish.")
+                string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
+                string += str("\n") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                f.write(string)
+            if user_extra == "yes" or user_extra == "y":
+                main()
+            elif user_extra != "no" or user_extra == "n":
+                print("All your orders are served , please enjoy the moment.")
+                print("Please collect your invoice sir.")
+                display_invoice()
         else:
             print(f"Sorry, but '{user_non_veg}' is not available at the non-veg card.")
 
     def non_veg_breakfast(self, user_non_veg, size, customer_name):
-        if user_non_veg in non_veg_breakfast and size == 2 or 1:
+        if user_non_veg in non_veg_breakfast.keys() and size == 2 or 1:
             self.order.update({user_non_veg: size})
             print(f"{size}:{user_non_veg} served to {customer_name}")
+            print("Anything, else sir?\n if yes or no")
+            user_extra = str(input())
+            hotel_customer.initial_bill = non_veg_breakfast[user_non_veg] * size
+            with open("invoice.txt", "a+") as f:
+                string = str(" ")
+                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
+                string += str("\t\n") + str(f"Drinks ordered : - {user_non_veg} * {size} = {non_veg_breakfast[user_non_veg]}/dish.")
+                string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
+                string += str("\n") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                f.write(string)
+            if user_extra == "yes" or user_extra == "y":
+                main()
+            elif user_extra != "no" or user_extra == "n":
+                print("All your orders are served , please enjoy the moment.")
+                print("Please collect your invoice sir.")
+                display_invoice()
         else:
             print(f"Sorry, but '{user_non_veg}' is not available at the non-veg card.")
 
     def non_veg_cocktail(self, user_non_veg, size, customer_name):
-        if user_non_veg in cocktails and size == 2 or 1:
+        if user_non_veg in cocktails.keys() and size == 2 or 1:
             self.order.update({user_non_veg: size})
             print(f"{size}:{user_non_veg} served to {customer_name}")
+            print("Anything, else sir?\n if yes or no")
+            user_extra = str(input())
+            hotel_customer.initial_bill += cocktails[user_non_veg] * size
+            with open("invoice.txt", "a+") as f:
+                string = str(" ")
+                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                # string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
+                string += str("\t\n") + str(f"Drinks ordered : - {user_non_veg} * {size} = {cocktails[user_non_veg]}/drink.")
+                string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
+                string += str("\n") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                f.write(string)
+            if user_extra == "yes" or user_extra == "y":
+                main()
+            elif user_extra != "no" or user_extra == "n":
+                print("All your orders are served , please enjoy the moment.")
+                print("Please collect your invoice sir.")
+                display_invoice()
         else:
             print(f"Sorry, but '{user_non_veg}' is not available at the non-veg card.")
 
 
 # displaying the vegetarian section
 def display_drinks():
-    print("List of Drinks in veg.")
-    for index, drink in enumerate(Drinks):
-        print(f"{index + 1}]{drink}")
+    print(
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~List of Drinks in veg.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    for drink, price in Drinks.items():
+        print(f"--> {drink}:{price}/-")
 
 
 def display_veg_food():
-    print("List of veg-dishes.")
-    for index, veg_items in enumerate(veg_food):
-        print(f"{index + 1}]{veg_items}")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~List of veg-dishes.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    for items, price in veg_food.items():
+        print(f"--> {items}:{price}/-")
 
 
 def display_breakfast():
-    print("List of breakfast items.")
-    for index, items in enumerate(breakfast):
-        print(f"{index + 1}] {items}")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~List of breakfast "
+          "items.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    for items, price in breakfast.items():
+        print(f"--> {items}:{price}/-")
 
 
 # displaying the non-vegetarian section
 def display_cocktails():
-    print("List of Cocktails.")
-    for index, drink in enumerate(cocktails):
-        print(f"{index + 1}]{drink}")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~List of Cocktails.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    for drink, price in cocktails.items():
+        print(f"-->{drink}:{price}/-")
 
 
 def display_non_veg_dishes():
-    print("List of Non-veg dishes.")
-    for index, dishes in enumerate(non_veg_food):
-        print(f"{index + 1}]{dishes}")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~List of Non-veg "
+          "dishes.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    for dishes, price in non_veg_dishes.items():
+        print(f"-->{dishes}:{price}/-")
 
 
 def display_non_veg_breakfast():
-    print("List of Non-veg breakfast.")
-    for index, dishes in enumerate(non_veg_breakfast):
-        print(f"{index + 1}]{dishes}")
+    print(
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~List of Non-veg "
+        "breakfast.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    for dishes, price in non_veg_breakfast.items():
+        print(f"--> {dishes}:{price}/-")
 
 
 def menu_card():
@@ -101,6 +214,13 @@ def menu_card():
     display_cocktails()
     display_non_veg_breakfast()
     display_non_veg_dishes()
+
+
+# displaying the invoice
+def display_invoice():
+    with open("invoice.txt", "r+") as f:
+        print(f.read())
+        f.close()
 
 
 def main():
@@ -138,12 +258,11 @@ def main():
     elif food_type == 2:
         food_type_variety = int(input("\t1]BreakFast \n\t2]Dishes\n\t3]Cocktails \n\tHit your choice : "))
         if food_type_variety == 1:
-            _breakfast_order()
+            _non_veg_breakfast_order()
         elif food_type_variety == 2:
-            _dishes_order()
+            _non_veg_dishes_order()
         elif food_type_variety == 3:
             _cocktails_order()
-            print(hotel_customer.order)
         else:
             print("You hit the wrong choice!")
             main()
@@ -158,11 +277,11 @@ def main():
                 _cocktails_order()
             elif food_type_variety == 2:
                 print("We will go with veg and non-veg breakfast")
-                non_veg_breakfast_order()
+                _non_veg_breakfast_order()
                 _breakfast_order()
             elif food_type_variety == 3:
                 print("We will go with veg and non-veg dishes")
-                non_veg_dishes_order()
+                _non_veg_dishes_order()
                 _dishes_order()
         except IndexError:
             print("The input you gave is incorrect.")
@@ -205,9 +324,9 @@ if __name__ == '__main__':
         "Bloody Mary": 650,
         "Moscow Mule.": 750
     }
-    non_veg_food = {
+    non_veg_dishes = {
         "Bangers and Mash": 4500,
-        " Fish and Chips": 5000,
+        "Fish and Chips": 5000,
         "Grilled Chicken Escalope with Fresh Salsa": 550,
         "Chicken and Waffles": 3500
     }
@@ -220,6 +339,7 @@ if __name__ == '__main__':
         print("Select the drinks from menu card.")
         user_drink = str(input("What's your order in drinks ? \nEnter the drink name and no of drinks: "))
         size = int(input())
+
         hotel_customer.drinks(user_drink, size, customer_name)
 
 
@@ -227,6 +347,7 @@ if __name__ == '__main__':
         print("Select the breakfast dish from menu card.")
         user_breakfast = str(input("What's your order in breakfast ? \nEnter the breakfast name and no of dishes: "))
         size = int(input())
+
         hotel_customer.breakfast(user_breakfast, size, customer_name)
 
 
@@ -241,18 +362,23 @@ if __name__ == '__main__':
         print("Select the cocktail from menu card.")
         user_non_veg = str(input("What's your order in Cocktails ? \nEnter the cocktail name and no of cocktail: "))
         size = int(input())
+
         hotel_customer.non_veg_cocktail(user_non_veg, size, customer_name)
 
-    def non_veg_breakfast_order():
+
+    def _non_veg_breakfast_order():
         print("Select the non-veg-dish from menu card.")
         user_non_veg = str(input("What's your order in non-veg breakfast ? \nEnter the dish name and no of dishes: "))
         size = int(input())
         hotel_customer.non_veg_breakfast(user_non_veg, size, customer_name)
 
-    def non_veg_dishes_order():
+
+    def _non_veg_dishes_order():
         print("Select the non-veg-dish from menu card.")
         user_non_veg = str(input("What's your order in non-veg dish ? \nEnter the dish name and no of dishes: "))
         size = int(input())
+
         hotel_customer.non_veg_food(user_non_veg, size, customer_name)
+
 
     main()

@@ -1,25 +1,106 @@
- ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`	
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for 1's order.	
+Drinks ordered : - The Marble Queen * 1 = 5200/drink.	
+Total amount:- 5200
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for s's order.	
+Drinks ordered : - The Marble Queen * 1 = 5200/drink.	
+Total amount:- 5200
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
 Invoice for rihan's order.	
+Drinks ordered : - The Marble Queen * 2 = 5200/drink.	
+Total amount:- 10400
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for rihan2's order.	
 Drinks ordered : - Armagnac * 2 = 450/drink.	
 Total amount:- 900
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`	
-Invoice for rihan's order.	
-Drinks ordered : - Bloody Mary * 2 = 650/drink.	
-Total amount:- 1300
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`	
-Invoice for rih's order.	
-Breakfast ordered : - Breakfast Cereals * 2 = 100/dish.	
-Total amount:- 200
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`	
-Invoice for lll's order.	
-Drinks ordered : - Scrambled Eggs * 1 = 100/drink.	
-Total amount:- 100
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`	
-Invoice for www's order.	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for rihan2's order.	
 Drinks ordered : - Casa Ginger Mint Paloma * 2 = 820/drink.	
 Total amount:- 1640
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`	
-Invoice for sdfghg's order.	
-Drinks ordered : - Mojito * 2 = 505/drink.	
-Total amount:- 1010
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for 1's order.	
+Drinks ordered : - Tea * 2 = 50/dish.	
+Total amount:- 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`	
+Invoice for 1's order.	
+Breakfast ordered : - Tea * 2 = 50/dish.	
+Total amount:- 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for 1's order.	
+Drinks ordered : - Prawn Pie * 2 = 5051/dish.	
+Total amount:- 10102
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`	
+Invoice for 1's order.	
+Drinks ordered : - Prawn Pie * 2 = 5051/dish.	
+Total amount:- 10102
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for 1's order.	
+Drinks ordered : - The Marble Queen * 2 = 5200/drink.	
+Total amount:- 10400
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for a's order.	
+Drinks ordered : - Fish and Chips * 2 = 5000/dish.	
+Total amount:- 10000
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`	
+Invoice for a's order.	
+Drinks ordered : - Fish and Chips * 2 = 5000 /dish.	
+Total amount:- 20000
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~` 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for ff's order.	
+Drinks ordered : - Scrambled Eggs * 2 = 100/dish.	
+Total amount:- 200
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for kj's order.	
+Drinks ordered : - Armagnac * 2 = 450/drink.	
+Total amount:- 900
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for zaq's order.	
+Drinks ordered : - Tea * 2 = 50/dish.	
+Total amount:- 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for lkjh's order.	
+Drinks ordered : - Tea * 2 = 50/dish.	
+Total amount:- 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for 1's order.	
+Drinks ordered : - Armagnac * 2 = 450/drink.	
+Total amount:- 900
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for 1's order.	
+Drinks ordered : - Tea * 2 = 50/dish.	
+Total amount:- 1000
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for a's order.	
+Drinks ordered : - Armagnac * 1 = 450/drink.	
+Total amount:- 450
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for rihan's order.	
+Drinks ordered : - Scrambled Eggs * 2 = 100/dish.	
+Total amount:- 200
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for rihan's order.	
+Drinks ordered : - Prawn Pie * 2 = 5051/dish.	
+Total amount:- 10302
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 	
+Invoice for jkkl's order.	
+Drinks ordered : - Grilled Chicken Escalope with Fresh Salsa * 2 = 550/dish.	
+Total amount:- 1100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 	
+Invoice for jkkl's order.	
+Drinks ordered : - Breakfast Cereals * 2 = 100/dish.	
+Total amount:- 1300
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
