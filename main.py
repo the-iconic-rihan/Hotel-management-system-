@@ -20,7 +20,7 @@ class Restaurant:
             hotel_customer.initial_bill += Drinks[user_drink] * size
             with open("invoice.txt", "a+") as f:
                 string = str(" ")
-                string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice for Drinks~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
                 string += str("\t\n") + str(f"Drinks ordered : - {user_drink} * {size} = {Drinks[user_drink]}/drink.")
                 string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
@@ -46,7 +46,7 @@ class Restaurant:
             hotel_customer.initial_bill += breakfast[user_breakfast] * size
             with open("invoice.txt", "a+") as f:
                 string = str(" ")
-                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice for breakfast~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
                 string += str("\t\n") + str(
                     f"Drinks ordered : - {user_breakfast} * {size} = {breakfast[user_breakfast]}/dish.")
@@ -71,7 +71,7 @@ class Restaurant:
             hotel_customer.initial_bill += veg_food[user_veg] * size
             with open("invoice.txt", "a+") as f:
                 string = str(" ")
-                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice for veg-dishes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
                 string += str("\t\n") + str(f"Drinks ordered : - {user_veg} * {size} = {veg_food[user_veg]}/dish.")
                 string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
@@ -96,7 +96,7 @@ class Restaurant:
             hotel_customer.initial_bill += non_veg_dishes[user_non_veg] * size
             with open("invoice.txt", "a+") as f:
                 string = str(" ")
-                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice for non-veg-dishes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
                 string += str("\t\n") + str(
                     f"Drinks ordered : - {user_non_veg} * {size} = {non_veg_dishes[user_non_veg]}/dish.")
@@ -121,7 +121,7 @@ class Restaurant:
             hotel_customer.initial_bill = non_veg_breakfast[user_non_veg] * size
             with open("invoice.txt", "a+") as f:
                 string = str(" ")
-                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice for non-veg breakfast~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
                 string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
                 string += str("\t\n") + str(f"Drinks ordered : - {user_non_veg} * {size} = {non_veg_breakfast[user_non_veg]}/dish.")
                 string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
@@ -145,8 +145,9 @@ class Restaurant:
             hotel_customer.initial_bill += cocktails[user_non_veg] * size
             with open("invoice.txt", "a+") as f:
                 string = str(" ")
-                # string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-                # string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
+                string += str("\n\t") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice for "
+                                            "CoCkTails~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+                string += str("\t\n") + str(f"Invoice for {customer_name}'s order.")
                 string += str("\t\n") + str(f"Drinks ordered : - {user_non_veg} * {size} = {cocktails[user_non_veg]}/drink.")
                 string += str("\t\n") + str(f"Total amount:- {hotel_customer.initial_bill}")
                 string += str("\n") + str("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")

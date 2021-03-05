@@ -103,4 +103,18 @@ Total amount:- 1100
 Invoice for jkkl's order.	
 Drinks ordered : - Breakfast Cereals * 2 = 100/dish.	
 Total amount:- 1300
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 	
+Invoice for 1's order.	
+Drinks ordered : - Chicken and Waffles * 2 = 3500/dish.	
+Total amount:- 7000
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice for non-veg breakfast~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for qqq's order.	
+Drinks ordered : - Stuffed Omelet * 2 = 200/dish.	
+Total amount:- 400
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~Invoice for veg-dishes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+Invoice for qqq's order.	
+Drinks ordered : - Yorkshire Lamb Patties * 2 = 2000/dish.	
+Total amount:- 4400
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
